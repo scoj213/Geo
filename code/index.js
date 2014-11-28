@@ -1,5 +1,6 @@
 //when the jQuery Mobile page is initialised
-
+var unixtime = new Date(position.timestamp); 
+var date = unixtime.toDateString();
 
 $(document).on('pageinit', function() {
 	
